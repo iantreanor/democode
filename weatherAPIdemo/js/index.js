@@ -6,7 +6,7 @@ $(document).on('pagecreate', '#feedPage', function(event) {
 	<!-- Use an HTML GET request to obtain data from a Yahoo Pipe
 	<!-- The Yahoo pipe currently parses the BBC News RSS feed  -->
 	var xmlhttp=new XMLHttpRequest();
-	xmlhttp.open("GET", feedURL, false);
+	xmlhttp.open("GET", https://www.metaweather.com/api/location/search/?query=london, false);
 	xmlhttp.send();
 		
 		
