@@ -33,8 +33,10 @@
     <script id='myTemplate' type='text/ractive'>
 	
 			{{#weather}}
-			<li>{{weather_state_name}}</li>
-			<li>{{wind_speed}}</li>
+			<p>Location:-</p><li>{{title}}</li>
+			<p>Current weather:-</p><li>{{weather_state_name}}</li>
+			<p>wind speed:-</p><li>{{wind_speed}}</li>
+			<p>sun rise time:-</p><li>{{sun_rise}}</li>
 			{{/weather}}
 
     </script>
